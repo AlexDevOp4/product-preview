@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-RjJypLdQE4](https://www.frontendmentor.io/solutions/product-preview-RjJypLdQE4)
 - Live Site URL: [https://monumental-bombolone-d56ef4.netlify.app/](https://monumental-bombolone-d56ef4.netlify.app/)
 
 ## My process
