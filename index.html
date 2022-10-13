@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- displays site properly based on user's device -->
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+    type='text/css'>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+
+<div class="md:flex md:justify-center md:mt-48 mt-24 mx-4">
+  <div class="md:flex md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg  ">
+    <img class="md:h-auto h-72  object-cover md:w-1/2 w-full rounded-t-lg md:rounded-none md:rounded-l-lg "
+      src="./images/image-product-desktop.jpg" alt="" />
+    <div class="p-6 flex flex-col justify-start ">
+      <p class="text-gray-600 tracking-widest pb-4">PERFUME</p>
+      <h1 class="text-gray-900 text-4xl font-bold mb-2">Gabrielle Essence Eau De Parfum</h1>
+      <p class="text-gray-700 text-base mb-4 pt-4">
+        A floral, solar and voluptuous
+        interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+        CHANEL
+      </p>
+      <div class="flex flex-row md:pb-4 pb-2 ">
+        <p class="price pr-4 text-4xl font-bold not-italic">$149.99</p>
+        <p class="text-xs line-through text-gray-500">$169.99</p>
+      </div>
+
+      <div class=" border-2 flex flex-row bg-emerald-800 rounded-lg py-2 justify-center cursor-pointer hover:bg-emerald-900">
+        <img class="w-auto pr-2" src="./images/icon-cart.svg" alt="" />
+
+        <button class=" text-white "> Add to Cart</button>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a target="_blank" href="https://github.com/AlexDevOp4">AlexDevOp4</a>.
+</div>
+</body>
+
+</html>
